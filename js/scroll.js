@@ -1,0 +1,1 @@
+$(document).ready((function(){$("a, .scrll").click((function(o){o.preventDefault(),$("html, body").animate({scrollTop:$("#form").offset().top},900),setTimeout(()=>{$("html, body").animate({scrollTop:$("#form").offset().top},900)},900),setTimeout(()=>{$("html, body").animate({scrollTop:$("#form").offset().top},300)},900)}))}));
